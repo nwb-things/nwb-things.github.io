@@ -14,7 +14,8 @@
   body {         
       max-width: 500px;
       margin: auto;
-      min-width: 380px;
+      min-width: 320px;
+      padding: 0px 10px 0px 10px;
       /* font-family:Arial, Helvetica, sans-serif; */
       font-family: 'Quicksand', sans-serif;
       background-color: #007aff;
@@ -65,15 +66,16 @@
     font-size: 18px;
     font-weight: 600;
     text-align: center;
-    flex: 2;
+    /* flex: 2; */
+    flex-grow: 2;
     white-space: nowrap;
   }
 
   .incrbtnrow {
     margin-top: 10px;
-    max-height: 35px;
+    max-height: 55px;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
   }
 
   .incread {
@@ -93,8 +95,8 @@
   .incrbtn {
     flex: 1;
     margin: 0px 4px;
-    padding: 0px 5px;
-    font-size: 18px;
+    /* padding: 0px 5px; */
+    font-size: 24px;
   }
 
   .dropdown-content {
@@ -103,7 +105,7 @@
     flex-direction: column;
     border:1px solid white;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 24px;
     background-color: transparent;
     padding: 5px 0px;
     /* flex-basis: 1; */

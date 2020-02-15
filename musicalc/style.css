@@ -16,7 +16,6 @@
       margin: auto;
       min-width: 320px;
       padding: 0px 10px 0px 10px;
-      /* font-family:Arial, Helvetica, sans-serif; */
       font-family: 'Quicksand', sans-serif;
       background-color: #007aff;
       color:white;
@@ -50,42 +49,30 @@
     flex: 1;
   }
 
-  /* .flex-menu div {
-    flex: 1;
-  } */
-
   .flex-btmbtn {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: gray; */
   }
 
   .droplabel {
     color: yellow;
-    /* margin-top: 10px; */
     margin-bottom: 10px;
     font-size: 18px;
     font-weight: 600;
     text-align: center;
-    /* flex: 2; */
-    /* flex-grow: 2; */
     white-space: nowrap;
   }
 
   .incrbtnrow {
-    /* margin-top: 5px; */
     max-height: 55px;
     display: flex;
-    /* flex-direction: row; */
   }
 
   .incread {
     margin-top: 12px;
     font-size: 28px;
     text-align: center;
-    /* font-weight: 600; */
-    /* background-color: rgb(0, 110, 255); */
   }
 
   .ylwnum {
@@ -97,26 +84,18 @@
   .incrbtn {
     flex: 1;
     margin: 0px 4px;
-    /* padding: 0px 5px; */
     font-size: 24px;
   }
 
   .dropdown-content {
-    /* margin-top: 5px; */
     margin: 5px 2px 0px 2px;
     display: flex;
     flex-direction: column;
     border:1px solid white;
-    /* border:1px solid transparent; */
     border-radius: 10px;
     font-size: 24px;
-    /* background-color: rgb(136, 136, 136); */
-    /* background-color: transparent; */
-    /* padding: 10px 0px; */
     padding-top: 10px;
-    /* flex-grow: 2; */
     flex: 2;
-    /* z-index: 1; */
   } 
   .flexone {
     flex: 1;
@@ -131,7 +110,6 @@
 
   .bottomlinks {
     text-align: center;
-    /* margin-top: 10px; */
   }
 
   .bottomlinks a {
@@ -167,17 +145,10 @@
   }
 
   .totalread {
-    /* display: flex; */
-    /* justify-content: space-evenly;  */
     text-align: center;
     font-size: 50px;
-    /* padding: 0px 0px 0px 15px; */
     color: yellow;
   }
-
-  /* .centertext {
-    text-align: center;
-  } */
 
     button {
     font-weight: 600;

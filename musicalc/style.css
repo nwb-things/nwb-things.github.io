@@ -16,7 +16,7 @@
       min-width: 320px;
       padding: 0px 10px 0px 10px;
       font-family: 'Quicksand', sans-serif;
-      background-color: #007aff;
+      background-color: rgb(10, 10, 10);
       color:white;
   }
 
@@ -28,7 +28,7 @@
 
   h1 {
     display: inline-block;
-    color: yellow;
+    color: rgb(246, 246, 0);
   }
 
   .inpsty {
@@ -55,7 +55,7 @@
   }
 
   .droplabel {
-    color: yellow;
+    color: rgb(246, 246, 0);
     margin-bottom: 10px;
     font-size: 18px;
     font-weight: 600;
@@ -76,13 +76,14 @@
 
   .ylwnum {
     font-weight: 800;
-    color: yellow;
+    color: rgb(246, 246, 0);
     
   }
 
   .incrbtn {
     flex: 1;
     margin: 0px 4px;
+    font-weight: bold;
     font-size: 24px;
   }
 
@@ -90,11 +91,14 @@
     margin: 5px 2px 0px 2px;
     display: flex;
     flex-direction: column;
-    border:1px solid white;
+    /* border:1px solid white; */
+    border:1px solid transparent;
     border-radius: 10px;
     font-size: 24px;
     padding-top: 10px;
     flex: 2;
+    background-color: #09568A;
+    /* background-color: rgb(10, 10, 10); */
   } 
   .flexone {
     flex: 1;
@@ -112,8 +116,9 @@
   }
 
   .bottomlinks a {
-    margin: 0px 10px;
-    color: white;
+    margin: 0px 10px 10px;
+    /* color: white; */
+    color: #007aff;
     text-decoration: none;
   }
 
@@ -135,26 +140,28 @@
 
   .dropdown-content a:hover {
     font-weight: 600;
-    color: yellow;
+    color: rgb(246, 246, 0);
   }
 
   .dropselected {
     font-weight: 600;
-    color:yellow;
+    color:rgb(246, 246, 0);
   }
 
   .totalread {
     text-align: center;
     font-size: 50px;
-    color: yellow;
+    color: rgb(246, 246, 0);
   }
 
     button {
     font-weight: 600;
     border-radius: 10px;
     background-color: transparent;
-    border: 2px solid white;
-    color:white;
+    /* border: 2px solid white;
+    color:white; */
+    border: 2px solid #007aff;
+    color:#007aff;
     padding: 5px 10px;
     font-size: 18px;
     text-align: center; 
@@ -162,12 +169,13 @@
   } 
 
   button:active {
-    color:yellow;
-    border-color: yellow;
+    color:rgb(246, 246, 0);
+    /* border-color: rgb(246, 246, 0); */
   }
 
   .btnslower {
-    color:white;
+    /* color:white; */
+    color: #007aff;
     margin: 20px 10px 10px;
     font-size: 18px;
     width: 100px;
@@ -178,13 +186,6 @@
     font-size: 18px;
     flex-grow: 1;
     flex-basis: 0;
-    margin: 0px 10px;
-  }
-  .btn_sel {
-    font-size: 18px;
-    color:yellow;
-    border-color: yellow;
-    flex: 1;
     margin: 0px 10px;
   }
 

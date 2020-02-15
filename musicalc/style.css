@@ -113,6 +113,7 @@
   .flexone {
     /* flex-basis: 2; */
     flex-grow: 1;
+    min-width: 50px;
   }
 
   /* .dropdown-content1 {

@@ -7,7 +7,7 @@
     src: url('./fonts/Quicksand-Regular.ttf') format('truetype'),
         url('./fonts/Quicksand-Bold.ttf') format('truetype'),
         url('./fonts/Quicksand-Medium.ttf') format('truetype'),
-        url('./fonts/Quicksand-Light.ttf') format('truetype'),
+        /* url('./fonts/Quicksand-Light.ttf') format('truetype'), */
         url('./fonts/Quicksand-SemiBold.ttf') format('truetype');
   }
         
@@ -62,24 +62,25 @@
 
   .droplabel {
     color: yellow;
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
     font-size: 18px;
     font-weight: 600;
     text-align: center;
     /* flex: 2; */
-    flex-grow: 2;
+    /* flex-grow: 2; */
     white-space: nowrap;
   }
 
   .incrbtnrow {
-    margin-top: 10px;
+    /* margin-top: 5px; */
     max-height: 55px;
     display: flex;
     /* flex-direction: row; */
   }
 
   .incread {
-    margin-top: 15px;
+    margin-top: 12px;
     font-size: 28px;
     text-align: center;
     /* font-weight: 600; */
@@ -100,40 +101,29 @@
   }
 
   .dropdown-content {
-    margin-top: 12px;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
     border:1px solid white;
     border-radius: 10px;
     font-size: 24px;
-    background-color: transparent;
-    padding: 10px 0px;
-    /* flex-basis: 1; */
-    flex-grow: 2;
+    /* background-color: transparent; */
+    /* padding: 10px 0px; */
+    padding-top: 10px;
+    /* flex-grow: 2; */
+    flex: 2;
     /* z-index: 1; */
   } 
   .flexone {
     /* flex-basis: 2; */
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    flex: 1;
     min-width: 50px;
   }
 
-  /* .dropdown-content1 {
-    margin-top: 12px;
-    display: flex;
-    flex-direction: column;
-    border:1px solid white;
-    border-radius: 10px;
-    font-size: 20px;
-    background-color: transparent;
-    padding: 5px 0px;
-    flex-grow:1;
-  }  */
-
-
   .dropdown-content a {
     text-align: center;
-    padding-bottom: 1px;
+    padding-bottom: 2px;
     text-decoration: none;
   }
 
@@ -143,7 +133,6 @@
   }
   .ullinks {
     color: white;
-    /* text-decoration: none; */
   }
 
   .items0 {
@@ -156,14 +145,11 @@
   .dropdown-content a:hover {
     font-weight: 600;
     color: yellow;
-    /* background-color: rgb(0, 110, 255); */
   }
 
   .dropselected {
     font-weight: 600;
-    /* font-weight: bold; */
     color:yellow;
-    /* background-color: rgb(0, 110, 255); */
   }
 
   .totalread {
@@ -175,8 +161,7 @@
   }
 
   .centertext {
-    display: flex;
-    justify-content: space-evenly; 
+    text-align: center;
   }
 
     button {

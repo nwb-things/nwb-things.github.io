@@ -1,6 +1,7 @@
 
-const subBtn = document.getElementById("subbtn");
-subBtn.addEventListener('click',doSpace);
+const calcBtn = document.getElementById("calcbtn");
+calcBtn.addEventListener('click',doSpace);
+calcBtn.disabled = true;
 const clrBtn = document.getElementById("clrbtn");
 clrBtn.addEventListener('click',clrStuff);
 
@@ -40,8 +41,8 @@ function doSpace() {
 function clrStuff() {
     indata = [0,0,1,1];
     theResult.innerHTML = "&nbsp;";
-    listHandler(0,0);
-    listHandler(1,0);
+    checkList(0,0);
+    checkList(1,0);
     numtrx.innerHTML = "1";
     nummin.innerHTML = "1";
     doclk = true;
@@ -51,6 +52,7 @@ function clrStuff() {
     if (nummin.classList.contains("ylwnum")) {
         nummin.classList.remove("ylwnum");
     }
+    calcBtn.disabled = true;
 }
 
 //par1 is the list, par2 is the item value
@@ -61,7 +63,7 @@ function menuSel(par1,par2) { //called in html
     else if (par1 == 1) { //is bit depth choice
         indata[1] = Number(par2);
     }
-    listHandler(par1,par2);
+    checkList(par1,par2);
 
 }
 
@@ -123,7 +125,7 @@ function setChlMins(the_id) {
     }
 }
 //par1 is the list, par2 is the item value
-function listHandler(par1,par2) { //only handles the highlighting visual
+function checkList(par1,par2) { //only handles the highlighting visual
     const idpref = (par1 == 0) ? "f" : "d"; //0 is freq menu and 1 is bit depth menu
     const theid = idpref + Math.floor(par2).toString(); //because decimal in id was avoided
     const togid = document.getElementById(theid);
@@ -139,6 +141,7 @@ function listHandler(par1,par2) { //only handles the highlighting visual
     if (par2 > 0) {togid.classList.add("dropselected");}
 
     if ((indata[0] > 0) && (indata[1] > 0)) {
+        calcBtn.disabled = false;
         ylwIncNums(theid); //sends id to change color of chn and trx count
     }
 }

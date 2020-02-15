@@ -58,6 +58,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-color: gray; */
   }
 
   .droplabel {
@@ -101,12 +102,15 @@
   }
 
   .dropdown-content {
-    margin-top: 5px;
+    /* margin-top: 5px; */
+    margin: 5px 2px 0px 2px;
     display: flex;
     flex-direction: column;
     border:1px solid white;
+    /* border:1px solid transparent; */
     border-radius: 10px;
     font-size: 24px;
+    /* background-color: rgb(136, 136, 136); */
     /* background-color: transparent; */
     /* padding: 10px 0px; */
     padding-top: 10px;
@@ -115,8 +119,6 @@
     /* z-index: 1; */
   } 
   .flexone {
-    /* flex-basis: 2; */
-    /* flex-grow: 1; */
     flex: 1;
     min-width: 50px;
   }
@@ -128,9 +130,21 @@
   }
 
   .bottomlinks {
+    text-align: center;
+    /* margin-top: 10px; */
+  }
+
+  .bottomlinks a {
+    margin: 0px 10px;
     color: white;
     text-decoration: none;
   }
+
+  li {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
   .ullinks {
     color: white;
   }
@@ -153,16 +167,17 @@
   }
 
   .totalread {
-    display: flex;
-    justify-content: space-evenly; 
+    /* display: flex; */
+    /* justify-content: space-evenly;  */
+    text-align: center;
     font-size: 50px;
-    padding: 0px 0px 0px 15px;
+    /* padding: 0px 0px 0px 15px; */
     color: yellow;
   }
 
-  .centertext {
+  /* .centertext {
     text-align: center;
-  }
+  } */
 
     button {
     font-weight: 600;
@@ -171,7 +186,7 @@
     border: 2px solid white;
     color:white;
     padding: 5px 10px;
-    margin: 20px 10px;
+    /* margin: 20px 10px; */
     font-size: 18px;
     text-align: center; 
     outline: none;         
@@ -184,10 +199,11 @@
 
   .btnslower {
     color:white;
-    margin: 20px 10px;
+    margin: 20px 10px 10px;
     font-size: 18px;
     width: 100px;
     padding: 10px 0px;
+    /* background-color: rgb(134, 133, 133); */
   }
 
   .btn_norm {

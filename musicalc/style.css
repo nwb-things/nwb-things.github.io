@@ -7,7 +7,6 @@
     src: url('./fonts/Quicksand-Regular.ttf') format('truetype'),
         url('./fonts/Quicksand-Bold.ttf') format('truetype'),
         url('./fonts/Quicksand-Medium.ttf') format('truetype'),
-        /* url('./fonts/Quicksand-Light.ttf') format('truetype'), */
         url('./fonts/Quicksand-SemiBold.ttf') format('truetype');
   }
         
@@ -157,7 +156,6 @@
     border: 2px solid white;
     color:white;
     padding: 5px 10px;
-    /* margin: 20px 10px; */
     font-size: 18px;
     text-align: center; 
     outline: none;         
@@ -174,7 +172,6 @@
     font-size: 18px;
     width: 100px;
     padding: 10px 0px;
-    /* background-color: rgb(134, 133, 133); */
   }
 
   .btn_norm {

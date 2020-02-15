@@ -49,9 +49,9 @@
     flex: 1;
   }
 
-  .flex-menu div {
+  /* .flex-menu div {
     flex: 1;
-  }
+  } */
 
   .flex-btmbtn {
     display: flex;
@@ -64,9 +64,8 @@
     margin-top: 10px;
     font-size: 18px;
     font-weight: 600;
-    /* font-weight: bold; */
     text-align: center;
-    flex: 1;
+    flex: 2;
     white-space: nowrap;
   }
 
@@ -107,8 +106,27 @@
     font-size: 20px;
     background-color: transparent;
     padding: 5px 0px;
+    /* flex-basis: 1; */
+    flex-grow: 2;
     /* z-index: 1; */
   } 
+  .flexone {
+    /* flex-basis: 2; */
+    flex-grow: 1;
+  }
+
+  /* .dropdown-content1 {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    border:1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    padding: 5px 0px;
+    flex-grow:1;
+  }  */
+
 
   .dropdown-content a {
     text-align: center;

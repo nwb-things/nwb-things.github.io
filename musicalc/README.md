@@ -1,1 +1,0 @@
-Fonts were downloaded from Google Fonts under the OFL license contained in Licenses (Licenses/OFL.txt).

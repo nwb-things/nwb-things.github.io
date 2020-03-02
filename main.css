@@ -1,0 +1,141 @@
+
+.btn_a {
+  background-color: #007aff;
+  border: none;
+  color: white;
+  /* width: 120px; */
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* font-size: 16px; */
+  margin: 4px 2px;
+  cursor: pointer;
+  outline: none;
+  /* margin: 10px; */
+  border-radius: 20px;
+  font-size: 24px;
+}
+
+/* Style the body */
+body {
+  /* font-family: Arial; */
+  font-family: 'Quicksand', sans-serif;
+
+  max-width: 1000px;
+  margin: auto;
+  /* margin: 0; */
+  /* overflow: hidden; */
+}
+
+/* .top2 {
+  font-weight: 500;
+  font-size: 24px;
+  margin-left: 5px;
+} */
+
+h3 {
+  /* display: inline-block; */
+  /* color: rgb(250, 250, 4); */
+  color:#007aff;
+}
+
+.bannerbox {
+  /* max-height:150px; */
+  /* min-height: 100px; */
+  background: #007aff;
+  color: white;
+  align-items: center;
+  padding-left: 10px;
+  /* justify-content: center; */
+  /* margin: 10px auto; */
+  display: flex
+  /* width:100%; */
+  /* position:fixed; */
+  /* top:0px; */
+}
+
+/* p {
+  text-align: start;
+} */
+
+/* .flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+} */
+
+
+.app-box {
+  /* display: flex; */
+  /* flex-grow: 1; */
+  /* overflow: hidden; */
+  /* height: auto;
+  width: auto; */
+  background-color: aqua;
+  padding-top: 10px;
+}
+/* enables this to be inherited by any class with flex-container- as prefix */
+/* [class*="flex-container-"] {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+} */
+
+/* .flex-container-boxes {
+  min-height: 200px;
+} */
+
+/* .flex-container-button { */
+  /* flex-grow: 1; */
+  /* flex-basis: 0; */
+  /* margin: 10px; */
+  /* border-radius: 20px; */
+  /* font-size: 24px; */
+/* } */
+
+.flex-container-div1 {
+  /* flex-grow: 1; */
+  /* background-color: black; */
+  /* min-height: 200px; */
+  border: 1px solid #077aff;
+  padding: 0px 10px;
+  margin: 5px 20px;
+  /* align-items: center; */
+  /* flex-wrap: inherit; */
+  /* justify-content: center; */
+  /* flex-shrink: 2; */
+  /* flex-basis: 0; */
+  /* margin: 10px; */
+  /* min-height: 400px; */
+  /* margin: 5px; */
+  /* border-radius: 20px; */
+  /* font-size: 24px; */
+}
+.flex-container-div2 {
+  margin: 5px;
+  flex-basis: 0;
+  justify-content: center;
+  /* background-color: blueviolet; */
+}
+
+/* embed{
+  overflow:hidden;
+} */
+
+/* .flex-container-btn {
+  align-items: flex-end;
+  justify-content: center;
+} */
+
+.divh {
+  text-align: center;
+  margin-left: 5px;
+}
+/* .mainh1 {
+  margin-top: 0;
+} */
+
+/* Page Content */
+/* .content {padding:20px;} */
